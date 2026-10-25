@@ -2,11 +2,11 @@
 
 ## Problem
 
-Stjepan dictates with Handy's streaming model and reads the text as it appears, which lets mistakes be caught at once. The live text cannot be edited, so a word with unusual spelling is fixed only after pasting. Every dictation also has to be started and stopped by hotkey, even a quick sentence into the current field. Other voices in the room would be transcribed too.
+Stjepan dictates with Handy's streaming model and reads the text as it appears, which lets mistakes be caught at once. The live text cannot be edited, so a word with unusual spelling is fixed only after pasting. Every dictation also has to be started and stopped by hotkey, even a quick sentence into the current field. Other voices in the room would be transcribed too. Cleaning the raw transcription (punctuation, filler words, numbers) needs a cloud provider or a language model server run and managed outside Handy.
 
 ## Outcome
 
-In a hotkey session, Stjepan can type into or correct the live text while dictation continues, and the finished text lands where they choose. With hands-free mode on, they speak without touching the keyboard and each finished utterance lands in the field that has focus, without losing its first syllable or being cut off mid-sentence. Only their voice is transcribed.
+In a hotkey session, Stjepan can type into or correct the live text while dictation continues, and the finished text lands where they choose. With hands-free mode on, they speak without touching the keyboard and each finished utterance lands in the field that has focus, without losing its first syllable or being cut off mid-sentence. Only their voice is transcribed. With post-processing on, Handy cleans each transcription on this machine before pasting it, without a noticeable wait and without holding most of the GPU's memory, and Stjepan can free that memory whenever they need it.
 
 ## Constraints
 
