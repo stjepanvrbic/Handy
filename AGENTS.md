@@ -1,6 +1,6 @@
 # Hands-free fork
 
-This repository is stjepanvrbic/Handy, a fork of cjpais/Handy with two additions: in a hotkey session the overlay becomes an editable pad whose text is pasted on stop, and a hands-free mode transcribes each utterance as it is spoken and pastes it into the focused field when the turn ends. Transcribing only the owner's voice follows once those work. Stjepan Vrbic is the sole owner and user.
+This repository is stjepanvrbic/Handy, a fork of cjpais/Handy with three additions: in a hotkey session the overlay becomes an editable pad whose text is pasted on stop; a hands-free mode transcribes each utterance as it is spoken and pastes it into the focused field when the turn ends; and a Local post-processing provider cleans transcriptions with a small model running inside Handy. Transcribing only the owner's voice follows once those work. Stjepan Vrbic is the sole owner and user.
 
 Intent: `docs/fork/intent.md`. Spec: `docs/fork/spec.md`. Decisions: `docs/fork/decisions.md`. Work is tracked in Linear project Handy hands-free (https://linear.app/stjepan-vrbic/project/handy-hands-free-8a2431f8aa81); it holds tickets only, the intent, spec and decisions stay in this repository.
 
