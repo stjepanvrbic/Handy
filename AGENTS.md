@@ -1,3 +1,18 @@
+# Hands-free fork
+
+This repository is stjepanvrbic/Handy, a fork of cjpais/Handy that adds hands-free dictation: the microphone listens continuously, each utterance is transcribed by the streaming model into an editable dictation pad in the overlay, and the pad is pasted into the focused field when listening is toggled off. Transcribing only the owner's voice follows once that works. Stjepan Vrbic is the sole owner and user.
+
+Intent: `docs/fork/intent.md`. Spec and decisions: `docs/fork/spec.md`. Work is tracked in Linear project Handy hands-free (https://linear.app/stjepan-vrbic/project/handy-hands-free-8a2431f8aa81); it holds tickets only, the intent and spec stay in this repository.
+
+Exceptions to the shared workflow and to upstream's instructions below:
+
+- Never open pull requests, issues or discussions on cjpais/Handy. Upstream's "GitHub workflow" section and its pull request template do not apply to this fork.
+- Work on feature branches and merge into this fork's `main` through pull requests on github.com/stjepanvrbic/Handy, where CI runs. Pushing to the fork needs no approval.
+- Keep `main` rebased on upstream `main` (remote `upstream`). Fork-specific code lives in its own modules so rebases stay cheap.
+- Everything below this section is upstream's and stays unedited.
+
+---
+
 # AGENTS.md
 
 This file provides guidance to AI coding assistants working with code in this repository.
